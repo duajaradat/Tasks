@@ -21,6 +21,8 @@ function numbers (){
             odd++
         }
     }
-    console.log("number of even numbers is: "+even)
-    console.log("number of add numbers is: "+odd)
+    alert("number of even numbers is: "+even);
+    console.log("number of even numbers is: "+even);
+    alert("number of add numbers is: "+odd);
+    console.log("number of add numbers is: "+odd);
 }
