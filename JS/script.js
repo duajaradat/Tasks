@@ -1,22 +1,14 @@
 'user strict'
-// This is a question to practice arrays and loops
-// you have this an array of these numbers [100,20,33,45,44,37,10,2,3,5,15,12,31,32,88,94,62,63,77,66,27,1,7,8,9]
-// write a function that return or console.log   'number of even numbers is ' and count the even numbers. if you want to count the odd number as well do the same return. after you finish it slack me with the answer in private message
-// example of the output
-// number of even numbers is 12
-// number of odd numbers is 13
-// numbers();
-
+numbers ();
 function numbers (){
     let EvenOdds = [100 , 20 , 33 ,45 , 44 , 37 , 10 , 2, 3, 5, 15, 12,31,32,88,94,62,63,77, 66, 27, 1, 7, 8 ,9];
-    console.log(EvenOdds.length)
-    let even=0
-    let odd=0
+    console.log(EvenOdds.length);
+    let even=0;
+    let odd=0;
      for (let i=0; i < EvenOdds.length ;i++ ){
-         let x=EvenOdds[i]%2
+         let x=EvenOdds[i]%2;
         if (x==0){
             even++;
-            
         }else{
             odd++
         }
